@@ -16,7 +16,7 @@
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="139dp"
             android:fontFamily="monospace"
             android:paddingLeft="150dp"
             android:paddingTop="50dp"
@@ -26,44 +26,45 @@
             android:typeface="normal" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/editTextTextPersonName2"
             android:layout_width="316dp"
-            android:layout_height="100dp"
+            android:layout_height="71dp"
             android:layout_marginHorizontal="50dp"
-            android:inputType="textEmailAddress"
-            android:paddingTop="70dp"
-            android:text="Correo"
-            android:textColor="@color/material_dynamic_neutral60" />
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextContraseña"
+            android:id="@+id/editTextTextPersonName3"
             android:layout_width="316dp"
-            android:layout_height="50dp"
+            android:layout_height="59dp"
             android:layout_marginHorizontal="50dp"
-            android:inputType="textVisiblePassword"
-            android:text="Contraseña"
-            android:textColor="@color/material_dynamic_neutral60" />
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button4"
             android:layout_width="316dp"
             android:layout_height="86dp"
             android:layout_marginHorizontal="50dp"
-            android:backgroundTint="@color/material_dynamic_neutral70"
+            android:backgroundTint="@color/griss"
             android:text="Iniciar Sesion"
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:paddingLeft="100dp"
             android:paddingTop="25dp"
             android:text="¿Olvidaste tu contraseña?"
-            android:textColor="@color/material_dynamic_primary60"
+            android:textColor="@color/AZUL"
             android:textSize="14sp"
             android:typeface="normal" />
+        />
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
